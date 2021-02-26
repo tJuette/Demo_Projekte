@@ -12,5 +12,7 @@ Wechselkursen oder dem Beenden des Programms per Nummerneingabe gibt. Es sollten
 Beträge eingegeben werden können, die dann entsprechend der Auswahl des Benutzers umrechnet werden. Ursprünglich 
 befanden sich in jeder der vier Auswahlmöglichkeiten dieselben ineinander verschachtelten Schleifen, womit ich 
 das DRY-Prinzip verletzte. Da ich noch Zeit hatte habe ich diese in zwei Funktionen ausgelagert, insgesamt
-war ich mit dem Ergebnis zufrieden. 
+war ich mit dem Ergebnis zufrieden. Allerdings habe ich eine Eingabe von Nichts (=None) nicht berücksichtigt und
+noch einige Artefakte von der ursrpünglichen Version drin gelassen, dies wurde in der verbesserten Variante 
+korrigiert.
 
