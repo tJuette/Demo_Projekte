@@ -3,9 +3,11 @@ Dieses Demonstrations-Projekt einer REST-API mit graphischer Benutzeroberfläche
         
         - die NY Times - Bestseller - Liste in JSON runterzuladen, im Sichtfenster auszugeben und/oder abzuspeichern 
         
-        - diese in XML umzuwandeln, im Sichtfenster auszugegeben und/oder abzuspeichern. Diese Datei ist wohlgeformt und lässt sich auch im Browser öffnen. 
+        - diese in XML umzuwandeln, im Sichtfenster auszugegeben und/oder abzuspeichern. Diese Datei ist wohlgeformt 
+          und lässt sich auch im Browser öffnen. 
         
-        - für die Informationen der 15 Bücher in dem XML-String eine Tabelle in einer anzugebenden MySQL-Datenbank zu erstellen, und diese dorthin zu übertragen. 
+        - für die Informationen der 15 Bücher in dem XML-String eine Tabelle in einer anzugebenden MySQL-Datenbank zu 
+          erstellen, und diese dorthin zu übertragen. 
 
 
 Der Hintergrund zu diesem Projekt ist folgender, Ende Juni 2020 wurde ich das erste Mal von einem potentiellen Ausbildungsbetrieb zur Probe-Arbeit eingeladen. Zuerst 
