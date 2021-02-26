@@ -276,8 +276,8 @@ class MeinHauptFenster(QMainWindow):
         if bestaetigung.exec() == QMessageBox.Cancel:
             return
         
-        # Einfache Anführungszeichen im String werden ersetzt, da diese in SQL für den Datentyp VARCHAR reserviert sind. Aus dem Datum des XML-Dokumentes wird entsprechend 
-        # formatiert der Tabellenname erstellt, anschließend wird der SQL-Befehl zur Erstellung an die ausgewählte Datenbank geschickt.
+        # Einfache Anführungszeichen im String werden ersetzt, da diese in SQL für den Datentyp VARCHAR reserviert sind. Aus dem Datum des XML-Dokumentes wird 
+        # entsprechend formatiert der Tabellenname erstellt, anschließend wird der SQL-Befehl zur Erstellung an die ausgewählte Datenbank geschickt.
         wurzel = ET.fromstring(self.xml_zeichenkette_formatiert.replace("'", "&#x2019;"))
         erstellt = wurzel.findtext("last_modified")
         tabellen_titel = erstellt[0:erstellt.find('T')].replace("-", "_")
@@ -314,8 +314,8 @@ class MeinHauptFenster(QMainWindow):
                 cur.execute(sql)
                 verbindung.commit()
 
-            # Die Schleife beginnt für jedes <book>-Element einen String mit dem SQL-Befehl INSERT INTO..., der dann von zwei internen Schleifen um die Spaltennamen und 
-            # Werte ergänzt, und als Datensatz an die ausgewählte Datenbank geschickt wird.       
+            # Die Schleife beginnt für jedes <book>-Element einen String mit dem SQL-Befehl INSERT INTO..., der dann von zwei internen Schleifen um die Spaltennamen 
+            # und Werte ergänzt, und als Datensatz an die ausgewählte Datenbank geschickt wird.     
             with verbindung.cursor() as cur:
                 for book in wurzel.iter("book"):
                     sql_string = f"INSERT INTO {tabellen_titel} ("
