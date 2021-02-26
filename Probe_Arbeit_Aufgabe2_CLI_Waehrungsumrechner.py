@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 
-# Dies ist die zweite Aufgabe für die ich am 16 Dezember 2020 zusammen mit der leichteren ersten Aufgabe vier
-# Stunden Zeit hatte. Es sollte im Terminal ein Menü erscheinen welches dem Benutzer die Auswahl zwischen vier
-# Wechselkursen oder dem Beenden des Programms per Nummerneingabe gibt. Es sollten nur Ganzzahlen für die 
-# Beträge eingegeben werden können, die dann entsprechend der Auswahl des Benutzers umrechnet werden. Ursprünglich 
-# befanden sich in jeder der vier Auswahlmöglichkeiten dieselben ineinander verschachtelten Schleifen, womit ich 
-# das DRY-Prinzip verletzte. Da ich noch Zeit hatte habe ich diese in zwei Funktionen ausgelagert, insgesamt
-# war ich mit dem Ergebnis zufrieden. 
-
 def eingabe_pruefen(eingabe : str):
     for i in eingabe:
         if i not in '0123456789':
@@ -71,7 +63,3 @@ while auswahl:
     elif auswahl == 5:
         print('Servus!')
         break
-
-# Hier unten ist eine leicht verbesserte Version von der abgelieferten Variante oben,
-# die zwei Funktionen wurden vereinigt und das Programm insgesammt etwas kompakter gemacht.
-
