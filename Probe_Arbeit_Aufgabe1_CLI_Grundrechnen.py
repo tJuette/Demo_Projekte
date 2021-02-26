@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 
-# Mir wurden am 16 Dezember 2020 von der Firma, bei der Mitte Oktober ein Vorstellungsgespräch stattgefunden hatte, 
-# zwei Aufgaben gestellt und vier Stunden Zeit gegeben um meine Quellcodes einzuschicken. Anschließend gab es eine 
-# Webex-Konferenz in der ich meine Lösungen vorstellte und erklärte. 
-# Das Ziel der ersten Aufgabe war es, ein Kommandozeilen-Programm zu entwerfen, dass vom Benutzer zwei Ziffern und 
-# das Symbol für eine der vier Grundrechenarten annimmt und das Ergebnis ausgibt, wobei nur Divisonen ohne Rest 
-# möglich sein sollten. Ein Programm welches lief bis der Benutzer es abbrach wurde nicht gefordert.
-
 def grundrechnen_version_1(operation : str):
     operand_1, operand_2 = int(operation[0]), int(operation[2]) 
     if operation[1] == '+':
@@ -36,8 +29,8 @@ def grundrechnen_version_2(operation : str):
             operator = lambda x, y : x / y
     return operator(operand_1, operand_2)
 
-# Die ersten beiden Funktionen lieferte ich ab, wobei ich nicht ganz zufrieden war. Die dritte, elegantere 
-# Funktion kam mir erst Tage später in den Sinn. Bei dem abgegebenen Programm war zudem die Fehlerkontrolle in jeder der
+# Ich lieferte die ersten beiden Funktionen ab, wobei ich nicht ganz zufrieden war. Die dritte, elegantere 
+# Funktion kam mir erst später in den Sinn. Bei dem abgegebenen Programm war zudem die Fehlerkontrolle in jeder der
 # beiden Funktionen enthalten. Ich habe sie hier ins Hauptprogramm verlagert damit der Unterschied der dritten
 # Funktion zu den anderen besser zur Geltung kommt.
 
