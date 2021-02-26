@@ -35,7 +35,7 @@ def grundrechnen_version_2(operation : str):
 # Funktion zu den anderen besser zur Geltung kommt.
 
 def grundrechnen_version_3(operation : str):
-    operationen = {'+' : lambda x, y : x + y, '-' : lambda x, y : x - y, '*' : lambda x, y : x * y, '/' : lambda x, y : x // y}
+    operationen = {'+' : lambda x, y : x + y, '-' : lambda x, y : x - y, '*' : lambda x, y : x * y, '/' : lambda x, y : x / y}
     operand_1, operator, operand_2 = int(operation[0]), operation[1], int(operation[2])
     if operator == '/' and operand_1 % operand_2 != 0:
         return "Ungültige Eingabe!"
