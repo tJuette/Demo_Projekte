@@ -5,23 +5,6 @@ from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QMainWindow, QLabel, QApplication, QPushButton, QMessageBox, QWidget, QGridLayout, QPlainTextEdit, QLineEdit 
 from PyQt5.QtCore import Qt
 
-# Der Hintergrund zu diesem Projekt ist folgender, Ende Juni 2020 wurde ich das erste Mal von einem potentiellen Ausbildungsbetrieb zur
-# Probe-Arbeit eingeladen. Zuerst sollte ich in C# nur eine einfache GUI erstellen, ein Fenster mit Ausgabefeld und Knopf, der von
-# einer Partner-API eines namhaften Versandhändlers Verkaufsinformationen im JSON-Format abruft und auf dem Ausgabefeld ausgibt. Das war
-# die Minimal-Anforderung, und dank WPF leicht umzusetzen. Dann sollte ich die JSON-Datei "von Hand" in XML umwandeln und an die MSSQL-
-# Datenbank der Firma übermitteln. Mit SQL hatte ich mich schon beschäftigt, und von der GUI Informationen an die Datenbank zu übermitteln
-# war auch kein Problem, aber an den für mich zu dem Zeitpunkt unvertrauten JSON- und XML-Formaten scheiterte ich. Zudem hatte ich mich
-# erstmals in den neun Tagen vor der Probe-Arbeit mit C# (inklusive WPF und SQL) beschäftigt, und war etwas "überlernt".
-
-# Mittlerweile kann ich auch mit diesen beiden Formaten und generell mit String-Verarbeitung recht gut umgehen, daher dieses
-# Demonstrations-Projekt, welches es dem Benutzer ermöglicht die NY Times - Bestseller - Liste in JSON runterzuladen, auszugeben und/oder 
-# abzuspeichern. Dann kann diese in XML umgewandelt, ausgegeben und/oder abgespeichert werden. Diese Datei ist wohlgeformt und lässt sich auch 
-# im Browser öffnen. Zu guter Letzt kann für die Informationen der 15 Bücher in dem XML-String eine Tabelle in einer anzugebenden MySQL-Datenbank
-# erstellt, und diese Informationen übertragen werden. Bei der Probe-Arbeit sollte die Übertragung dann im XML-Format stattfinden, da MySQL anders 
-# als MSSQL keine Option dafür anbietet, und es hier ohnehin nur darum geht den Umgang mit verschiedenen Formaten zu demonstrieren, habe ich auf 
-# jeglichen Bezug der Datenbank-Inhalte zu XML (etwa Tags und Inhalte als "Blob" in einem Feld abzuspeichern) verzichtet. Fertig gestellt habe ich 
-# es am 26.02.2020.
-
 class MeinHauptFenster(QMainWindow):
     def __init__(self): 
         super().__init__()
