@@ -29,7 +29,7 @@ def grundrechnen_version_2(operation : str):
             operator = lambda x, y : x / y
     return operator(operand_1, operand_2)
 
-# Ich lieferte die ersten beiden Funktionen ab, wobei ich nicht ganz zufrieden war. Die dritte, elegantere 
+# Ich lieferte die ersten beiden Funktionen als Lösung ab, wobei ich nicht ganz zufrieden war. Die dritte, elegantere 
 # Funktion kam mir erst später in den Sinn. Bei dem abgegebenen Programm war zudem die Fehlerkontrolle in jeder der
 # beiden Funktionen enthalten. Ich habe sie hier ins Hauptprogramm verlagert damit der Unterschied der dritten
 # Funktion zu den anderen besser zur Geltung kommt.
