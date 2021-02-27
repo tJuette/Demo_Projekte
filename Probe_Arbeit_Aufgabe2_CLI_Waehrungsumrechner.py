@@ -26,8 +26,8 @@ moeglichkeit_3 = 'Euro in philippinische Pesos [3],\n'
 moeglichkeit_4 = 'Philippinische Pesos in Euro [4],\n'
 beenden = 'exit [5]\n'
 
-dollar_zu_euro_faktor = 1.17
-euro_zu_dollar_faktor = 0.85
+euro_zu_dollar_faktor = 1.17
+dollar_zu_euro_faktor = 0.85
 euro_zu_p_pesos_faktor = 56.66
 p_pesos_zu_euro_faktor = 0.018
 
