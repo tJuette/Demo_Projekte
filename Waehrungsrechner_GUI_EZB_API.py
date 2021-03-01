@@ -67,10 +67,11 @@ class Waehrungsrechner(QMainWindow):
         knopf_beenden.clicked.connect(self.beenden)
 
     # Die Wechselkurse für den EURO werden mit dem Starten des Programms im Dictionary "raten" unter dem Schlüssel "EUR" gespeichert. Hat man
-    # einen Betrag mit maxmial einem Komma eingebeben, überprüft die Methode "umrechnen" ob sich die Ausgangswährung im Dictionary "raten" befindet.
+    # einen Betrag mit maximal einem Komma eingeben, überprüft die Methode "umrechnen" ob sich die Ausgangswährung im Dictionary "raten" befindet.
     # Wenn ja wird die Ausgangswährung mit der Umrechnungsrate der Endwährung multipliziert. Befindet sich die Ausgangswährung nicht in "raten",
     # wohl aber die Endwährung, wird der Betrag durch den Umrechnungsfaktor "Endwährung zu Ursprungswährung" geteilt. Nur wenn beides nicht
     # möglich ist, werden von der Web-API der EZB die Umrechnungsraten der ausgewählten Ursprungswährung angefordert, und unter dem Schlüssels des  Dies soll Traffic minimieren.   
+    
     def umrechnen(self):
         if not self.eingabe.text():
             QMessageBox.about(self, "Fehler", "Sie müssen einen Betrag eingeben!")
