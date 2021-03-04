@@ -295,7 +295,7 @@ class MeinHauptFenster(QMainWindow):
                             primary_isbn13 VARCHAR(13) UNIQUE,
                             publisher VARCHAR(150),
                             description VARCHAR(500),
-                            price DECIMAL(3,2),
+                            price DECIMAL(5,2),
                             title VARCHAR(150),
                             author VARCHAR(150),
                             contributor VARCHAR(150),
