@@ -339,8 +339,6 @@ class MeinHauptFenster(QMainWindow):
             QMessageBox.about(self, "Erfolg", f'Die Tabelle "{tabellen_titel}" ist erstellt und die Daten aus dem XML-Dokument übertragen!')    
         except BaseException as err:
             QMessageBox.about(self, "Fehler", f"{err}")
-        finally:
-            verbindung.close()
 
     def beenden(self):
         bestaetigung = QMessageBox()
