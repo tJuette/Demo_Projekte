@@ -217,10 +217,10 @@ class MeinHauptFenster(QMainWindow):
         xml_string += "        <corrections>"
         for i in xml_notation_dic['results']['corrections']:
             if i != xml_notation_dic['results']['corrections'][len(xml_notation_dic['results']['corrections'])-1]:
-                xml_string += f"{i}, "
+                xml_string += f"            {i}, "
             else:
-                xml_string += f"{i}."
-        xml_string += "</corrections>\n"
+                xml_string += f"            {i}."
+        xml_string += "        </corrections>\n"
         xml_string += "    </results>\n"
         xml_string += "</bestsellers>"
         self.xml_zeichenkette_formatiert = xml_string
