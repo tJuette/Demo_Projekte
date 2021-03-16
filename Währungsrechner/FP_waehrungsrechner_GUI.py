@@ -3,7 +3,7 @@ from decimal import Decimal, getcontext
 from PyQt5 import QtWidgets, QtCore, QtGui
 from PyQt5.QtWidgets import QMainWindow, QWidget, QComboBox, QPushButton, QLineEdit, QLabel, QApplication, QMessageBox
 from PyQt5.QtCore import QRect
-
+# Diese Variante unterscheidet sich nur dadurch, dass die drei Schleifen durch List-Comprehension, map() und filter() ersetzt wurden.
 class Waehrungsrechner(QMainWindow):
     def __init__(self):
         super().__init__()
