@@ -6,7 +6,6 @@ from PyQt5.QtCore import QRect
 
 class Waehrungsrechner(QMainWindow):
     def __init__(self):
-        global json_string
         super().__init__()
         self.setFixedSize(650, 317)
         self.setWindowTitle("Währungsrechner mit Kursen der Europäischen Zentralbank")
