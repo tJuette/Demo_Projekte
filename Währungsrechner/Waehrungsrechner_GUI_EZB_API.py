@@ -78,6 +78,7 @@ class Waehrungsrechner(QMainWindow):
         elif self.ursprungswaehrung.currentText() == self.endwaehrung.currentText():
             QMessageBox.about(self, "Fehler", "Sie müssen eine Währung auswählen in die umgerechnet werden soll!")
             return
+        
         basis = self.waehrungen[self.ursprungswaehrung.currentText()]
         resultat = self.waehrungen[self.endwaehrung.currentText()]
         eingabe = ""
@@ -88,6 +89,7 @@ class Waehrungsrechner(QMainWindow):
             QMessageBox.about(self, "Fehler", "Sie können maximal ein Komma eingeben!")
             return
         eingabe = Decimal(eingabe.replace(",", "."))
+        
         if self.raten.get(basis):
             self.ausgabe.setText((str(round(eingabe * Decimal(self.raten[basis]['rates'][resultat]), 2))).replace(".", ","))
         elif self.raten.get(resultat):
