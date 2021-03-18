@@ -4,7 +4,7 @@
     zufrieden, haben den Ausbildungsplatz aber dann jemand anderem gegeben.
 
 2) REST-API
-    Keine richtige REST-API, aber nah dran. Ein Programm mit graphischer Benutzeroberfläche welches das Herunterladen 
+    Keine richtige REST-API, aber nah dran. Ein Programm mit graphischer Benutzeroberfläche, welches das Herunterladen 
     einer komplexen JSON-Zeichenkette mit mehreren Verzweigungen ermöglicht. Sie kann auch in formatierter Form im 
     Sichtfenster angezeigt und/oder auf der Festplatte gespeichert werden. Daraus kann aber auch eine formatierte 
     XML-Zeichenkette erstellt werden, die sich ebenfalls anzeigen und speichern lässt. Zu guter Letzt kann aus der 
