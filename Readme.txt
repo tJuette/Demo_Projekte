@@ -1,9 +1,6 @@
 Meditation-Rauten-Muster
-    Eher ein kleiner Scherz, mit dem Python-Skript "tabellenschreiber.py" wurde ein HTML-Dkument mit einer Tabelle 
-    erstellt, die aus 113 Reihen mit jeweils 200 Feldern besteht. Im verlinkten JS-Skript werden jede Sekunde vier 
-    verschiedene Farben erstellt und den Tabellenfeldern so als Hintergrundfarben zugewiesen, dass ein Rautenmuster
-    ensteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation. Die Anzahl Felder ist ideal für
-    Firefox im Vollbildmodus bei einer Bildschirmauflösung von 1920 mal 1080.
+    Eher ein kleiner Scherz, einer HTML-Tabelle aus 113 * 200 Feldern werden jede Sekunde vier Zufallsfarben zugewiesen, 
+    so dass ein Rautenmuster entsteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation.
 
 Probe-Arbeit
     Nichts besonderes, nur zwei kleine Aufgaben die mir von einer Firma zum Lösen innerhalb von vier Stunden gegeben 
