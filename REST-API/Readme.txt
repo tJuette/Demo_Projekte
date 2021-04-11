@@ -11,8 +11,7 @@ Dieses Demonstrations-Projekt einer REST-API mit graphischer Benutzeroberfläche
           erstellen, und für jedes einen Datensatz zu übertragen. 
 
 
-Der Hintergrund zu diesem Projekt ist folgender, Ende Juni 2020 wurde ich das erste Mal von einem potentiellen Ausbildungsbetrieb zur Probe-Arbeit eingeladen. Zuerst 
-sollte ich in C# nur eine einfache GUI erstellen, ein Fenster mit Textfeld und Knopf, der von einer Partner-API eines namhaften Versandhändlers Verkaufsinformationen 
+Der Hintergrund zu diesem Projekt ist folgender, Ende Juni 2020 wurde ich das erste Mal von einem potentiellen Ausbildungsbetrieb zur Probe-Arbeit eingeladen. Zuerst sollte ich in C# nur eine einfache GUI erstellen, ein Fenster mit Textfeld und Knopf, der von einer Partner-API eines namhaften Versandhändlers Verkaufsinformationen 
 im JSON-Format abruft und im Textfeld ausgibt. Das war die Minimal-Anforderung, und dank WPF und Google(HttpRequest) leicht umzusetzen. Dann sollte ich die JSON-Datei "von Hand" in XML umwandeln und an die MSSQL-Datenbank der Firma übermitteln. Mit SQL hatte ich mich schon beschäftigt, und von der GUI Informationen an die Datenbank 
 zu übermitteln war auch kein Problem, aber an den für mich zu dem Zeitpunkt unvertrauten JSON- und XML-Formaten scheiterte ich.
 
