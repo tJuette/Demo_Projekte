@@ -2,10 +2,12 @@ Meditation-Rauten-Muster
     Eher ein kleiner Scherz, einer HTML-Tabelle aus 113 * 200 Feldern werden jede Sekunde vier Zufallsfarben 
     zugewiesen, so dass ein Rautenmuster entsteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation.
 
+
 Probe-Arbeit
     Nichts besonderes, nur zwei kleine Aufgaben die mir von einer Firma zum Lösen innerhalb von vier Stunden gegeben 
     wurden. Dabei sollte getestet werden wie ich eingegebene Strings verarbeite. Sie waren mit den Ergebnissen sehr 
     zufrieden, haben den Ausbildungsplatz aber dann jemand anderem gegeben.
+
 
 REST-API
     Keine richtige REST-API, aber nah dran. Ein Programm mit graphischer Benutzeroberfläche, welches das Herunterladen 
@@ -14,6 +16,7 @@ REST-API
     XML-Zeichenkette erstellt werden, die sich ebenfalls anzeigen und speichern lässt. Zu guter Letzt kann aus der 
     XML-Zeichenkette eine Tabelle in einer MySQL-Datenbank erstellt werden, in welche die meisten Informationen als 
     Datensätze übertragen werden.
+    
     
 Währungsrechner
     Ein Währungsrechner mit graphischer Benutzeroberfläche, der eine API ohne Key nutzt. Beim
