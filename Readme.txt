@@ -1,6 +1,6 @@
 Meditation-Rauten-Muster
-    Eher ein kleiner Scherz, einer HTML-Tabelle aus 113 * 200 Feldern werden jede Sekunde vier Zufallsfarben zugewiesen, 
-    so dass ein Rautenmuster entsteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation.
+    Eher ein kleiner Scherz, einer HTML-Tabelle aus 113 * 200 Feldern werden jede Sekunde vier Zufallsfarben 
+    zugewiesen, so dass ein Rautenmuster entsteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation.
 
 Probe-Arbeit
     Nichts besonderes, nur zwei kleine Aufgaben die mir von einer Firma zum Lösen innerhalb von vier Stunden gegeben 
