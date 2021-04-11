@@ -1,0 +1,14 @@
+body
+{
+    height: 100%;
+    background-color: black;
+}
+table
+{
+    height: 100%
+}
+td
+{
+    height: 4pt;
+    width: 5pt;
+}
