@@ -23,4 +23,4 @@ REST-API
 Währungsrechner
     Ein Währungsrechner mit graphischer Benutzeroberfläche, der eine API ohne Key nutzt. Beim
     Starten des Programms werden die neuesten Umrechnungssätze für den EURO heruntergeladen, und deren Datum  
-    angezeigt. Weitere Umrechnungssätze nur bei Bedarf einmal heruntergeladen, um den Traffic zu minimieren.
+    angezeigt. Weitere Umrechnungssätze werden nur bei Bedarf einmal heruntergeladen, um den Traffic zu minimieren.
