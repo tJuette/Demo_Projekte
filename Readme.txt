@@ -11,7 +11,7 @@ REST-API
     XML-Zeichenkette eine Tabelle in einer MySQL-Datenbank erstellt werden, in welche die meisten Informationen als 
     Datensätze übertragen werden.
     
-Währungsrechner (Ich habe ihn erstmal heruntergenommen da man sich jetzt doch für einen API-Key registrieren muss)
-    Ein Währungsrechner mit graphischer Benutzeroberfläche, der eine API der Europäischen Zentralbank nutzt. Beim
+Währungsrechner
+    Ein Währungsrechner mit graphischer Benutzeroberfläche, der eine API ohne Key nutzt. Beim
     Starten des Programms werden die neuesten Umrechnungssätze für den EURO heruntergeladen, und deren Datum  
     angezeigt. Weitere Umrechnungssätze nur bei Bedarf einmal heruntergeladen, um den Traffic zu minimieren.
