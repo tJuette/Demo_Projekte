@@ -1,4 +1,3 @@
-# Demo_Projekte
 Dieses Demonstrations-Projekt einer REST-API mit graphischer Benutzeroberfläche (PyQt5) ermöglicht es dem Benutzer: 
         
         - die NY Times - Bestseller - Liste, bestehend aus mehreren JSON-Objekten und -Arrays runterzuladen, formatiert 
