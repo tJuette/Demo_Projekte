@@ -19,5 +19,5 @@ Bei der Probe-Arbeit sollte die Übertragung dann im XML-Format stattfinden, da 
 geht den Umgang mit verschiedenen Formaten zu demonstrieren, habe ich auf jeglichen Bezug der Datenbank-Inhalte zu XML (etwa Tags und Inhalte als "Blob" in einem 
 Feld abzuspeichern) verzichtet.
 
-Bei der FP-Variante wurden die meisten Schleifen bei der Erstellung des XML-Strings durch map() und filter() oder List-Comprehensions ersetzt, was immerhin die 42 Zeilen Code auf 17 reduziert. 
+Bei der FP-Variante wurden die meisten Schleifen bei der Erstellung des XML-Strings durch List-Comprehensions ersetzt, was immerhin die 42 Zeilen Code auf 16 reduziert. 
 
