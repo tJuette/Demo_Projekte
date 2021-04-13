@@ -19,5 +19,14 @@ Bei der Probe-Arbeit sollte die Übertragung dann im XML-Format stattfinden, da 
 geht den Umgang mit verschiedenen Formaten zu demonstrieren, habe ich auf jeglichen Bezug der Datenbank-Inhalte zu XML (etwa Tags und Inhalte als "Blob" in einem 
 Feld abzuspeichern) verzichtet.
 
-Bei der FP-Variante wurden die meisten Schleifen bei der Erstellung des XML-Strings durch List-Comprehensions ersetzt, was immerhin die 42 Zeilen Code auf 16 reduziert. 
+Bei der FP-Variante wurden die meisten Schleifen bei der Erstellung des XML-Strings durch List-Comprehensions ersetzt, was immerhin die 42 Zeilen Code auf 16 reduziert. Tatsächlich ist es auch möglich alle Schleifen durch List-Comprehensions zu ersetzen und den Abschnitt auf 8 Zeilen zu reduzieren, das Ergebnis ist aber sehr unleserlich:
+
+xml_string='<?xml version="1.0" encoding="UTF-8"?>\n<bestsellers>\n'+''.join([f'\t<{k}>{v}</{k}>\n' for k, v in xml_notation_dic.items() if k != 'results'])+\
+'\t<results>\n'+''.join([f'\t\t<{k}>{v}</{k}>\n' for k, v in xml_notation_dic['results'].items() if k not in ('books', 'corrections')])+'\t\t<books>\n'+\
+''.join([''.join([3*'\t'+'<book>\n']+[4*'\t'+f'<{k}>{v}</{k}>\n' for k, v in book.items() if k not in ('isbns', 'buy_links', 'book_uri')]+[4*'\t'+'<isbns>\n']+
+[5*'\t'+'<i10_i13>\n'+''.join([6*'\t'+f'<{k}>{v}</{k}>\n' for k, v in i.items()])+5*'\t'+'</i10_i13>\n' for i in book["isbns"]]+[4*'\t'+'</isbns>\n']+
+[4*'\t'+'<buy_links>\n']+[5*'\t'+'<store>\n'+''.join([6*'\t'+f'<{k}>{v}</{k}>\n' for k, v in i.items()])+5*'\t'+'</store>\n' for i in book['buy_links']]+
+[4*'\t'+'</buy_links>\n']+[4*'\t'+f'<{k}>{v}</{k}>\n' for k, v in book.items() if k == 'book_uri']+[3*'\t'+'</book>\n']) for book in 
+xml_notation_dic['results']['books']])+'\t\t</books>\n'+''.join(['\t\t<corrections>\n']+[3*'\t'+f"{i}\n" for i in xml_notation_dic['results']['corrections']]+\
+['\t\t</corrections>\n'])+'\t</results>\n</bestsellers>'
 
