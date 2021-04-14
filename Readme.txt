@@ -1,8 +1,9 @@
 Meditation-Rauten-Muster
     Eher ein kleiner Scherz, den 113 * 200 Feldern einer HTML-Tabelle werden jede Sekunde vier verschiedene 
-    Zufallsfarben zugewiesen, so dass ein Rautenmuster entsteht. Sehr entspannend anzusehen und hilft womöglich 
-    bei der Meditation. Diese Tabelle ist wohl der Grund dass HTML in meinem Repository als Hauptsprache 
-    angeführt wird, dabei habe ich sie automatisch  mit Python generiert.
+    Farben zugewiesen, zufällig aus allen 16,7 Millionen Möglichkeiten ausgewählz, so dass ein Rautenmuster 
+    entsteht. Sehr entspannend anzusehen und hilft womöglich bei der Meditation. Diese Tabelle ist wohl der 
+    Grund dass HTML in meinem Repository als Hauptsprache angeführt wird. Dabei habe ich sie automatisch  
+    mit Python generiert.
 
 
 Probe-Arbeit
