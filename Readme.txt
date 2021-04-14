@@ -16,8 +16,8 @@ Probe-Arbeit
     einer komplexen JSON-Zeichenkette mit mehreren Verzweigungen ermöglicht. Sie kann auch in formatierter Form im 
     Sichtfenster angezeigt und/oder als JSON-Datei auf der Festplatte gespeichert werden. Daraus kann aber auch eine 
     formatierte XML-Zeichenkette erstellt werden, die sich ebenfalls anzeigen und als wohlgeformtes XML-Dkoument 
-    speichern lässt. Zu guter Letzt kann aus der XML-Zeichenkette eine Tabelle in einer MySQL-Datenbank erstellt werden, 
-    in welche die meisten Informationen als Datensätze übertragen werden.
+    speichern lässt. Zu guter Letzt kann aus der XML-Zeichenkette eine Tabelle in einer MySQL-Datenbank erstellt 
+    werden, in welche die meisten Informationen als Datensätze übertragen werden.
     
     
 Währungsrechner
