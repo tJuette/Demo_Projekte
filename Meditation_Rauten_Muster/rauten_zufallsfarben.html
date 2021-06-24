@@ -18,15 +18,15 @@
         </style>
         <script>
             "use strict"
-            let tab = "<table>";
+            let tabelle = "<table>";
             for(let reihe = 1; reihe < 114; reihe++) {
-                tab += "<tr>";
+                tabelle += "<tr>";
                 for(let feld = 1; feld < 201; feld++)
-                    tab += `<td id='r${reihe}f${feld}'></td>`;
-                tab += "</tr>"
+                    tabelle += `<td id='r${reihe}f${feld}'></td>`;
+                tabelle += "</tr>"
             }
-            tab += "</table>";
-            document.write(tab);
+            tabelle += "</table>";
+            document.write(tabelle);
 
             let sekunde = 0
             let zeit
