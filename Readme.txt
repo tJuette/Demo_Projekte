@@ -6,7 +6,7 @@ Meditation-Rauten-Muster (HTML mit eingebundenen CSS- und Javascript-Anweisungen
 
 Probe-Arbeit (Python-CLI-Skripte)
     Dies sind zwei kleine Aufgaben, die mir von einer Firma gestellt wurden um sie innerhalb von vier Stunden zu 
-    lösen. Dabei sollte getestet werden wie ich eingegebene Strings verarbeite.
+    lösen. Dabei sollte getestet werden wie ich eingegebene Zeichenketten verarbeite.
 
 
 "REST-API" (Python-Skript mit PyQt-Benutzeroberfläche)
