@@ -5,9 +5,8 @@ Meditation-Rauten-Muster (HTML mit eingebundenen CSS- und Javascript-Anweisungen
 
 
 Probe-Arbeit (Python-CLI-Skripte)
-    Zwei kleine Aufgaben die mir von einer Firma zum Lösen innerhalb von vier Stunden gegeben 
-    wurden. Dabei sollte getestet werden wie ich eingegebene Strings verarbeite. Sie waren mit den Ergebnissen sehr 
-    zufrieden, haben den Ausbildungsplatz aber dann jemand anderem gegeben.
+    Dies sind zwei kleine Aufgaben, die mir von einer Firma gestellt wurden um sie innerhalb von vier Stunden zu 
+    lösen. Dabei sollte getestet werden wie ich eingegebene Strings verarbeite.
 
 
 "REST-API" (Python-Skript mit PyQt-Benutzeroberfläche)
