@@ -20,5 +20,5 @@ Probe-Arbeit (Python-CLI-Skripte)
     
 Währungsrechner (Python-Skript mit PyQt-Benutzeroberfläche)
     Ein Währungsrechner mit graphischer Benutzeroberfläche, der eine API ohne Key nutzt. Beim
-    Starten des Programms werden die neuesten Umrechnungssätze für den EURO heruntergeladen, und deren Datum  
+    Starten des Programms werden die neuesten Umrechnungssätze für den EURO heruntergeladen und deren Datum  
     angezeigt. Weitere Umrechnungssätze werden nur bei Bedarf einmal heruntergeladen, um den Traffic zu minimieren.
