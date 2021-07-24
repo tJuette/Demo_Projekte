@@ -35,14 +35,14 @@
                 zeit = setInterval(farben, 1000)
             
             function farben() {
-	            const hexFarben = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
-                function hex00BisFF() {
-	                return `${hexFarben[Math.floor(Math.random() * 16)]}${hexFarben[Math.floor(Math.random() * 16)]}`
-	            }
-	            const farbe1 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
-	            const farbe2 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
-	            const farbe3 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
-	            const farbe4 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
+	    	const hexFarben = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
+            	function hex00BisFF() {
+	        	return `${hexFarben[Math.floor(Math.random() * 16)]}${hexFarben[Math.floor(Math.random() * 16)]}`
+	     	}
+	     	const farbe1 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
+	      	const farbe2 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
+	    	const farbe3 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
+	     	const farbe4 = `#${hex00BisFF()}${hex00BisFF()}${hex00BisFF()}`
 	                            
                 for(let reihe = 1; reihe < 114; reihe++)
                     for(let feld = 1; feld < 201; feld++) {
